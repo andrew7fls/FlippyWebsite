@@ -20,8 +20,8 @@ body {
 .container:first-child {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 10% 30% auto;
-      grid-template-rows: 10% 30% auto;
+  -ms-grid-rows: 20% 30% auto;
+      grid-template-rows: 20% 30% auto;
 }
 
 .container h1 {
