@@ -63,7 +63,15 @@ h2 {
   font-weight: normal;
   text-align: center;
 }
-
+.footer{
+  bottom: 10%;
+  width: 100%;
+  background-color: #8EC2DC;
+  text-align: center;
+  font-family: "Gochi Hand";
+  color: white;
+  font-size: 2em;
+}
 .subtext {
   margin-top: 0;
   font-size: 1.4em;
