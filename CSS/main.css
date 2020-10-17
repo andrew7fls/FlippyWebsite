@@ -34,7 +34,8 @@ body {
 
 .container p {
   line-height: 1.5em;
-  color: #c2c2c2;
+  color: white;
+  text-align: center;
 }
 
 header {
@@ -56,9 +57,11 @@ header {
 
 h2 {
   color: white;
-  font-size: 3em;
+  font-size: 4em;
+  font-family: "Gochi Hand";
   margin: 0;
   font-weight: normal;
+  text-align: center;
 }
 
 .subtext {
@@ -84,7 +87,7 @@ h2 {
 }
 
 .flippylogo {
-  top: 15%;
+  top: 3%;
 }
 
 .waterandflippy {
