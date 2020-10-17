@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="#" class = "logo"> Flippy</a>
+        
+
+        <nav>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/menu.svg" alt="menu">
+        </nav>
+        </header>
+    </div>
+
+    <div class="container secondary lax" data-lax-translate-y="0 0,400 -200">
+        <h2>About</h2>
+        <p class="subtext">Gameplay</p> 
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in reiciendis accusamus incidunt fuga rem at dicta tenetur debitis libero blanditiis voluptate consequuntur neque eaque, fugiat optio dolor voluptatum assumenda.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in reiciendis accusamus incidunt fuga rem at dicta tenetur debitis libero blanditiis voluptate consequuntur neque eaque, fugiat optio dolor voluptatum assumenda.</p>
+    </div>
+
+    <img src="images/mountain.png" alt="Mountains" class="mountains lax" data-lax-translate-y="0 1, 400 0">>
+    <img src="images/flippylogo.png" alt="FlippyLogo" class="flippylogo lax" data-lax-translate-y="0 1, 400 -100">>
+    <img src="images/waterandflippy.png" alt="WaterAndFlippy" class="waterandflippy lax" data-lax-translate-y="0 1, 400 -300">>
+
+    <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+
+    <script>
+        window.onload = function() {
+	lax.setup() // init
+
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
+}
+    </script>
+
+
+
+</body>
+</html>

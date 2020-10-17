@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+body {
+  margin: 0;
+  height: 100vh;
+  background: #8EC2DC;
+  font-family: "Open Sans";
+}
+
+*, *:before, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  padding: 2em;
+  height: 100vh;
+}
+
+.container:first-child {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 10% 30% auto;
+      grid-template-rows: 10% 30% auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 2em;
+  font-weight: normal;
+  font-size: 3em;
+  line-height: .9em;
+}
+
+.container p {
+  line-height: 1.5em;
+  color: #c2c2c2;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Gochi Hand";
+  font-size: 2em;
+}
+
+h2 {
+  color: white;
+  font-size: 3em;
+  margin: 0;
+  font-weight: normal;
+}
+
+.subtext {
+  margin-top: 0;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.secondary {
+  margin-top: -3em;
+}
+
+.mountains, .waterandflippy, .flippylogo {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+}
+
+.mountains {
+  top: 13%;
+}
+
+.flippylogo {
+  top: 15%;
+}
+
+.waterandflippy {
+  top: 15%;
+}
+/*# sourceMappingURL=main.css.map */
