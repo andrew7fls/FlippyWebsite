@@ -5,6 +5,7 @@ body {
   height: 100vh;
   background: #8EC2DC;
   font-family: "Open Sans";
+  
 }
 
 *, *:before, *:before {
@@ -32,12 +33,27 @@ body {
   line-height: .9em;
 }
 
-.container p {
+p {
   line-height: 1.5em;
   color: white;
   text-align: center;
 }
+p2{
+  line-height: 2em;
+  color: white;
+  font-size: 2em;
+  word-wrap: normal;
+  text-shadow:1px 1px black;
+}
 
+
+.flippysteamreleasebanner{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 12%;
+}
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,9 +71,50 @@ header {
   font-size: 2em;
 }
 
+.image-grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.grid-image{
+  transition: 1s;
+  width: 600px;
+  margin: 1%;
+  
+}
+
+.grid-image:hover{
+  filter:grayscale(50%);
+  transform: scale(1.1);
+  /*box-shadow: 0px 0px 8px whitesmoke; */
+
+}
+
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.linksvg{
+  transition:1s;
+  width: 100px;
+  margin:50px;
+}
+.linksvg:hover{
+  fill: white;
+  transform: scale(1.3);
+  
+}
+.flippyjumpingsequence{
+  
+  align-content: flex-end;
+}
+
 h2 {
   color: white;
-  font-size: 4em;
+  font-size: 5em;
   font-family: "Gochi Hand";
   margin: 0;
   font-weight: normal;
@@ -79,7 +136,61 @@ h2 {
 }
 
 .secondary {
-  margin-top: -3em;
+  
+  padding-top: 3%;
+  
+  background: linear-gradient(180deg, rgba(142,194,220,1) 0%,rgb(88, 152, 184) 100%);
+  
+}
+
+.third{
+  background: linear-gradient(0deg, rgba(142,194,220,1) 0%,rgb(88, 152, 184) 100%);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+.soundcloud{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+}
+.pictureleft
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20%;
+  padding-left: 7%;
+}
+.pictureright
+{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  padding-left: 20%;
+  padding-right: 7%;
+  padding-top: 5%;
+}
+.fourth {
+  
+  /*padding-top: 20%;*/
+  
+  background: linear-gradient(180deg, rgba(142,194,220,1) 0%,rgb(88, 152, 184) 100%);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  
+}
+.fifth{
+  background: linear-gradient(0deg, rgba(142,194,220,1) 0%,rgb(88, 152, 184) 100%);
+}
+.sixth{
+  background: linear-gradient(180deg, rgba(142,194,220,1) 0%,rgb(88, 152, 184) 100%);
+}
+.flippypiano{
+  
+  width:30%;
 }
 
 .mountains, .waterandflippy, .flippylogo {
@@ -88,19 +199,93 @@ h2 {
   right: 0;
   z-index: -1;
   width: 100%;
+  
 }
 
 .mountains {
-  top: 13%;
+  top: 25%;
 }
 
 .flippylogo {
-  top: 0%;
+  top: 12%;
   padding-left: 25%;
   padding-right: 25%;
 }
 
 .waterandflippy {
-  top: 15%;
+  top: 27%;
 }
 /*# sourceMappingURL=main.css.map */
+
+@media only screen and (min-width:320px){
+  .mountains{
+    top: 12%
+  }
+  .flippylogo {
+    top: 16%;
+  }
+  .waterandflippy {
+    top: 18%;
+  }
+  .logo{
+    font-size: 0.8em;
+  }
+}
+@media only screen and (min-width:768px){
+  .mountains{
+    top: 13%
+  }
+  .flippylogo {
+    top: 15%;
+  }
+  .waterandflippy {
+    top: 19%;
+  }
+  .logo{
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width:1024px){
+  .mountains{
+    top: 14%
+  }
+  .flippylogo {
+    top: 14%;
+  }
+  .waterandflippy {
+    top: 20%;
+  }
+  .logo{
+    font-size: 1.3em;
+  }
+}
+@media only screen and (min-width:1440px){
+  .mountains{
+    top: 17%
+  }
+  .flippylogo {
+    top: 13%;
+  }
+  .waterandflippy {
+    top: 25%;
+  }
+  .logo{
+    font-size: 1.7em;
+  }
+
+}
+@media only screen and (min-width:2560px){
+  .mountains{
+    top: 25%
+  }
+  .flippylogo {
+    top: 12%;
+  }
+  .waterandflippy {
+    top: 27%;
+  }
+  .logo{
+    font-size: 2em;
+  }
+  
+}

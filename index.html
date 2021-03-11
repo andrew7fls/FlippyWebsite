@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flippy</title>
     <link rel="stylesheet" type ="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="lightbox.min.css">
+    <script src="lightbox-plus-jquery.min.js"></script>
 </head>
 <body>
-    <div class="container lax" data-lax-translate-y="0 1, 400 400">
+    <div class="container">
         <header>
             <a href="#" class = "logo"> Flippy</a>
         
@@ -18,38 +20,99 @@
         </nav>
         </header>
     </div>
+    <div class = "annoucement">
+        <img src="images/FlippySteamReleaseBanner.png" class = flippysteamreleasebanner>
 
-    <div class="container secondary lax" data-lax-translate-y="0 0,400 -200" data-lax-opacity="0 0,300 1">
+
+    </div>
+
+    <div class="secondary">
         <h2>About The Game</h2>
-        <!--<p class="subtext">Gameplay</p> -->
+        <div class="pictureleft">
+            <img src="images/flippypiano.png" class = flippypiano>
+            <p2>Flippy is a narrative puzzle game about a young penguin who is trying to find their way through the ice and water of the antarctic. Throughout the game, you will solve a series of puzzles to progress and to find out more about Flippy's story.</p2>
+        </div>
+        <div class="pictureright">
+            <p2>The soundtrack can be listened to on Soundcloud and Youtube using the links below. </p2>
+            <img src="images/Flippy Violin.png"  class = flippypiano>
+        </div>
+        
+        
+        
+    </div>
+    <div class = "third">
+        <h2>Images</h2>
+        <div class = "image-grid">
+            <a href= "images/screenshot1flippynightmain.png" data-lightbox="mygallery"><img src="images/screenshot1flippynightround.png"  class = grid-image></a>
+            <a href= "images/screenshot1flippynightmain.png" data-lightbox="mygallery"><img src="images/screenshot1flippynightround.png"  class = grid-image></a>
+            <a href= "images/screenshot1flippynightmain.png" data-lightbox="mygallery"><img src="images/screenshot1flippynightround.png"  class = grid-image></a>
 
-        <p>Flippy is a narrative puzzle game about a young penguin who is trying to find their way home. Throughout the game, you will solve a series of puzzles to progress and to find out more about Flippy's story.</p>
+
+        </div>
+    </div>
+    
+    <div class = "fourth">
+        <h2>Music</h2>
+        <div class="pictureleft">
+            <img src="images/flippypiano.png" class = flippypiano>
+            <p2>The music for Flippy was composed by the game designer.  Inspiration was drawn from a range of contemporary piano and chamber music, alongside modern Scandinavian composers in those genres who intergrate electronic sound scapes into their music.</p2>
+        </div>
+        <div class="pictureright">
+            <p2>The soundtrack can be listened to on Soundcloud and Youtube using the links below. </p2>
+            <img src="images/Flippy Violin.png"  class = flippypiano>
+        </div>
+        <div class = "soundcloud">
+            <iframe width="70%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1224569515&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/andrew-searle-384966165" title="Flippy Game Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">Flippy Game Soundtrack</a> · <a href="https://soundcloud.com/andrew-searle-384966165/sets/flippy-ost" title="Flippy OST" target="_blank" style="color: #cccccc; text-decoration: none;">Flippy OST</a> </div>
+        </div>
         
     </div>
 
-    <div class="footer">
+    <div class = "fifth">
+        <h2>Social Media Links</h2>
+        <div class= "links">
+            
+            <a href="https://www.youtube.com/"><img src="images/youtube.svg" class = linksvg></a>
+            <a href="https://www.soundcloud.com"><img src="images/soundcloud.svg" class = linksvg></a>
+            <a href="https://www.twitter.com/flippy_game"><img src="images/twitter.svg" class = linksvg></a>
+            <a href="mailto: flippygameinfo@gmail.com"><img src="images/google-plus.svg" class = linksvg></a>
+    
+        </div>
+    
+    </div>
+    
+    <div class = "sixth">
+        
+        <img width = "100%" src="images/flippyjumpsequencewhite.png" class = flippyjumpingsequence>
         
     </div>
-    <footer class="footer">
-        <p>&#169;Andrew Searle 2020</p>
-    </footer>
 
-    <img src="images/mountain.png" alt="Mountains" class="mountains lax" data-lax-translate-y="0 1, 400 0" data-lax-opacity="0 1, 200 1, 500 0">
-    <img src="images/FlippyLogoHRescycles.png" alt="FlippyLogo" class="flippylogo lax" data-lax-translate-y="0 1, 500 500">
-    <img src="images/waterandflippycycles.png" alt="WaterAndFlippy" class="waterandflippy lax" data-lax-translate-y="0 1, 400 -300" data-lax-opacity="0 1, 200 1, 500 0">
+    
+
+    <img src="images/mountain.png" alt="Mountains" class="mountains lax lax_preset_slideY:5000:100" >
+    <img src="images/FlippyLogoHRescycles.png" alt="FlippyLogo" class="flippylogo lax lax_preset_slideY:5000:-1000 lax_preset_flipY:1298:255">
+    <img src="images/waterandflippycycles.png" alt="WaterAndFlippy" class="waterandflippy lax lax_preset_slideY:5000:-1000">
 
     <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
 
     <script>
         window.onload = function() {
-	lax.setup() // init
+	lax.init() // init
 
-	const updateLax = () => {
-		lax.update(window.scrollY)
-		window.requestAnimationFrame(updateLax)
-	}
+    lax.addDriver('scrollY', function () {
+      return window.scrollY
+    })
+    lax.addElements('.selector', {
+      scrollY: {
+        translateX: [
+          ["elInY", "elCenterY", "elOutY"],
+          [0, 'screenWidth/2', 'screenWidth'],
+        ]
+      }
+    })
+  
 
-	window.requestAnimationFrame(updateLax)
+
+	
 }
     </script>
 
