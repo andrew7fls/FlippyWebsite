@@ -247,6 +247,9 @@ h2 {
   .soundcloud{
     padding-top: 10%;
   }
+  .container{
+    height: 20vh;
+  }
 
 }
 @media only screen and (min-width:768px){
@@ -278,6 +281,9 @@ h2 {
   .soundcloud{
     padding-top: 7%;
   }
+  .container{
+    height: 35vh;
+  }
 }
 @media only screen and (min-width:1024px){
   .mountains{
@@ -307,6 +313,10 @@ h2 {
   }
   .soundcloud{
     padding-top: 6%;
+  }
+
+  .container{
+    height: 50vh;
   }
 }
 @media only screen and (min-width:1440px){
@@ -342,6 +352,9 @@ h2 {
   .soundcloud{
     padding-top: 5%;
   }
+  .container{
+    height: 70vh;
+  }
 }
 @media only screen and (min-width:2560px){
   .mountains{
@@ -365,6 +378,12 @@ h2 {
   .flippypiano{
   
     width:30%;
+  }
+  .grid-image{
+    width: 600px;
+  }
+  .container{
+    height: 100vh;
   }
   
 }
