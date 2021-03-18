@@ -161,8 +161,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 20%;
-  padding-left: 7%;
+  padding-right: 10%;
+  padding-left: 3%;
+  text-align: center;
 }
 .pictureright
 {
@@ -170,9 +171,10 @@ h2 {
   
   justify-content: center;
   align-items: center;
-  padding-left: 20%;
-  padding-right: 7%;
+  padding-left: 10%;
+  padding-right: 3%;
   padding-top: 5%;
+  text-align: center;
 }
 .fourth {
   
@@ -248,8 +250,9 @@ h2 {
     padding-top: 10%;
   }
   .container{
-    height: 20vh;
+    height: 30vh;
   }
+  
 
 }
 @media only screen and (min-width:768px){
@@ -282,7 +285,7 @@ h2 {
     padding-top: 7%;
   }
   .container{
-    height: 35vh;
+    height: 40vh;
   }
 }
 @media only screen and (min-width:1024px){
