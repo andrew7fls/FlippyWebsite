@@ -154,6 +154,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   padding-top: 2%;
+  
 }
 .pictureleft
 {
@@ -190,7 +191,7 @@ h2 {
 }
 .flippypiano{
   
-  width:30%;
+  width:50%;
 }
 
 .mountains, .waterandflippy, .flippylogo {
@@ -230,6 +231,23 @@ h2 {
   .logo{
     font-size: 0.8em;
   }
+  h2{
+    font-size: 1em;
+  }
+  p2{
+    font-size: 0.5em;
+  }
+  .grid-image{
+    width: 150px;
+  }
+  .linksvg{
+    width: 50px;
+    margin:10px;
+  }
+  .soundcloud{
+    padding-top: 10%;
+  }
+
 }
 @media only screen and (min-width:768px){
   .mountains{
@@ -243,6 +261,22 @@ h2 {
   }
   .logo{
     font-size: 1em;
+  }
+  h2{
+    font-size: 2em;
+  }
+  p2{
+    font-size: 0.75em;
+  }
+  .grid-image{
+    width: 300px;
+  }
+  .linksvg{
+    width: 70px;
+    margin:20px;
+  }
+  .soundcloud{
+    padding-top: 7%;
   }
 }
 @media only screen and (min-width:1024px){
@@ -258,6 +292,22 @@ h2 {
   .logo{
     font-size: 1.3em;
   }
+  h2{
+    font-size: 3em;
+  }
+  p2{
+    font-size: 1em;
+  }
+  .grid-image{
+    width: 300px;
+  }
+  .linksvg{
+    width: 100px;
+    margin:30px;
+  }
+  .soundcloud{
+    padding-top: 6%;
+  }
 }
 @media only screen and (min-width:1440px){
   .mountains{
@@ -272,7 +322,26 @@ h2 {
   .logo{
     font-size: 1.7em;
   }
-
+  h2{
+    font-size: 4em;
+  }
+  p2{
+    font-size: 1.5em;
+  }
+  .grid-image{
+    width: 400px;
+  }
+  .flippypiano{
+  
+    width:40%;
+  }
+  .linksvg{
+    width: 100px;
+    margin:30px;
+  }
+  .soundcloud{
+    padding-top: 5%;
+  }
 }
 @media only screen and (min-width:2560px){
   .mountains{
@@ -286,6 +355,16 @@ h2 {
   }
   .logo{
     font-size: 2em;
+  }
+  h2{
+    font-size: 5em;
+  }
+  p2{
+    font-size: 2em;
+  }
+  .flippypiano{
+  
+    width:30%;
   }
   
 }
