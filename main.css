@@ -44,6 +44,7 @@ p2{
   font-size: 2em;
   word-wrap: normal;
   text-shadow:1px 1px black;
+  text-align: center;
 }
 
 
@@ -147,7 +148,7 @@ h2 {
   background: linear-gradient(0deg, rgba(142,194,220,1) 0%,rgb(88, 152, 184) 100%);
   padding-top: 5%;
   padding-bottom: 5%;
-  
+  text-align: center;
 }
 .soundcloud{
   text-align: center;
@@ -187,6 +188,7 @@ h2 {
 }
 .fifth{
   background: linear-gradient(0deg, rgba(142,194,220,1) 0%,rgb(88, 152, 184) 100%);
+  text-align: center;
 }
 .sixth{
   background: linear-gradient(180deg, rgba(142,194,220,1) 0%,rgb(88, 152, 184) 100%);
